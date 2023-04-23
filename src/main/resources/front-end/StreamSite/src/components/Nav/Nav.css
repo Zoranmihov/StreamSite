@@ -1,0 +1,120 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  color: rgb(246, 246, 246);
+  background-color: rgb(24, 24, 24);
+  font-size: 1.2rem;
+}
+
+.nav-form {
+  display: flex;
+}
+
+.nav-input,
+.nav-submit {
+  font-size: 1rem;
+  padding: 4px 8px;
+  height: 35px;
+  border: none;
+  outline: none;
+  background-color: rgb(46, 46, 46);
+  border-radius: 12px;
+  color: rgb(246, 246, 246);
+}
+
+.nav-input {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.nav-submit {
+  width: 45px;
+  padding: 4px;
+  cursor: pointer;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.nav-input:focus {
+  background-color: rgb(58, 58, 58);
+}
+
+.nav-submit:hover {
+  background-color: rgb(58, 58, 58);
+}
+
+.nav-link {
+  text-decoration: none;
+  color: rgb(246, 246, 246);
+  margin-left: 10px;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  color: rgb(207, 207, 207);
+}
+
+/* Dropdown Button */
+.nav-dropbtn {
+  font-size: 1.2rem;
+  outline: none;
+  border: 1px solid white;
+  background-color: inherit;
+  color: white;
+  padding: 4px;
+  cursor: pointer;
+  width: 100px;
+}
+
+/* Dropdown button on hover & focus */
+.nav-dropbtn:hover,
+.nav-dropbtn:focus {
+  background-color: rgb(53, 53, 53);
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(55, 55, 55);
+  z-index: 1;
+  width: 100px;
+  margin-top: 2px;
+
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: azure;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: rgb(73, 73, 73);
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+  display: block;
+}
+
+@media only screen and (max-width: 450px) {
+  nav {
+    font-size: 16px;
+  }
+  .nav-input {
+    width: 65px;
+  }
+}

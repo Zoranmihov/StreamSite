@@ -1,0 +1,58 @@
+.myProfile-container {
+    min-height: 100vh;
+    display: flex;
+    background-color: rgb(30, 30, 30);
+    justify-content: center;
+    padding-top: 25px;
+}
+
+
+.profile-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.profile-form-span {
+    margin-bottom: 8px;
+    color: azure;
+    font-size: 1.2rem;
+}
+
+.profile-input {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid white;
+  background-color: inherit;
+  color: white;
+  color-scheme: dark;
+}
+
+.profile-submit {
+    outline: none;
+    border: 1px solid white;
+    background-color: inherit;
+    font-size: 1.2rem;
+    padding: 8px;
+    color: azure;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+.profile-submit:hover {
+   background-color: rgb(104, 104, 104);
+}
+
+.profile-submit:disabled {
+    background-color: rgb(154, 154, 154);
+    cursor: default;
+  }
+
+.error-text {
+    color: red;
+    font-size: 14px;
+    margin: 6px 0;
+    display: none;
+}

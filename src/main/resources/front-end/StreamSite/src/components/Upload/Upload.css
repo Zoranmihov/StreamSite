@@ -1,0 +1,78 @@
+.upload-cointainer {
+    display: flex;
+    min-height: 100vh;
+    background-color: rgb(50, 50, 50);
+    padding-top: 20px;
+    flex-direction: column;
+    color: azure;
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+.upload-form {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+
+.upload-form input, textarea {
+    margin-bottom: 12px;
+    padding: 4px;
+    font-size: 16px;
+    outline: none;
+    background-color: inherit;
+    border: 1px solid white;
+    color: azure;
+}
+
+.upload-form textarea {
+    height: 120px;
+}
+
+.upload-form textarea {
+    resize: none;
+}
+
+.upload-button {
+    outline: none;
+    border: 1px solid white;
+    background-color: inherit;
+    font-size: 1.2rem;
+    padding: 8px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    color: azure;
+}
+
+.upload-button:hover {
+    background-color: rgb(104, 104, 104);
+ }
+
+.upload-form span {
+    font-size: 1.2rem;
+}
+
+.file-input {
+    display: none;
+}
+
+#uploaded-img {
+    width: 300px;
+    height: auto;
+    margin: 10px 0;
+    align-self: center;
+
+}
+
+.file-upload-text {
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 450px) {
+    .upload-form {
+        width: 300px;
+    }
+  }
